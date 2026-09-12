@@ -10,8 +10,8 @@ import en from "./locales/en.json";
 // 2) importarlo acá y sumarlo a `resources`
 // 3) agregarlo a SUPPORTED_LANGUAGES
 export const SUPPORTED_LANGUAGES = [
-  { code: "es", label: "Español" },
-  { code: "en", label: "English" },
+  { code: "es", label: "ESPAÑOL" },
+  { code: "en", label: "ENGLISH" },
 ];
 
 export const DEFAULT_LANGUAGE = "es";

@@ -18,10 +18,11 @@ export default function LanguageSwitcher() {
       aria-label="Seleccionar idioma"
       value={i18n.resolvedLanguage}
       onChange={handleChange}
+      className="cursor-pointer"
     >
       {SUPPORTED_LANGUAGES.map((lang) => (
-        <option key={lang.code} value={lang.code}>
-          {lang.label}
+        <option key={lang.code} value={lang.code} className="text-ink-soft">
+          {lang.code.toUpperCase()}
         </option>
       ))}
     </select>

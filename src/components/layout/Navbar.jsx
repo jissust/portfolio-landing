@@ -24,11 +24,11 @@ export default function Navbar() {
   const handleLinkClick = () => setOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-paper/90 backdrop-blur">
+    <header className="fixed w-full top-0 z-50 border-b border-line bg-paper/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-10">
         {/* Logo */}
         <a href="#top" className="font-mono text-sm font-medium tracking-tight">
-          NA<span className="text-ink-soft">.dev</span>
+          [JT]<span className="text-ink-soft">.dev</span>
         </a>
 
         {/* Nav desktop: sigue igual, solo visible desde md */}
@@ -87,7 +87,7 @@ export default function Navbar() {
       >
         <div className="flex items-center justify-between px-6 py-4">
           <span className="font-mono text-sm font-medium tracking-tight">
-            NA<span className="text-paper/60">.dev</span>
+            [JT]<span className="text-paper/60">.dev</span>
           </span>
 
           <button
