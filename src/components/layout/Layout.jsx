@@ -8,7 +8,7 @@ import Footer from "@/components/layout/Footer";
  */
 export default function Layout({ children }) {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col font-body text-ink antialiased">
       <Navbar />
       <main className="flex-1 pt-[var(--navbar-height)]">{children}</main>
       <Footer />
