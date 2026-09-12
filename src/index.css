@@ -16,15 +16,15 @@
   --color-accent: #f59e0b;
 
   --color-paper: #FAFAF8;
-  --color-surface: #F1F1EE;
   --color-ink: #111110;
   --color-ink-soft: #55554F;
   --color-line: #DEDED8;
-
+  --color-line-dark: rgba(250,250,248,0.14);
+  
   /* ---- Colores de superficie / texto (placeholder, ajustar con el diseño final) ---- */
   --color-bg: #FAFAF8;
   --color-bg-alt: #f8fafc;
-  /* --color-surface: #ffffff; */
+  --color-surface: #F1F1EE;
   --color-heading: #0f172a;
   --color-body: #334155;
   --color-muted: #64748b;
@@ -32,7 +32,8 @@
 
   /* ---- Tipografías ---- */
   --font-heading: "Poppins", "Inter", system-ui, sans-serif;
-  --font-body: "Inter", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
 
   /* ---- Layout ---- */
   --breakpoint-3xl: 1920px;
@@ -64,7 +65,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
-  color: var(--color-heading);
+
 }
 
 /* Offset para que el scroll a los anchors (#sobre-mi, #skills, etc.)
