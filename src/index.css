@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/*
+  =========================================================
+  DESIGN SYSTEM
+  Centralizá acá tokens de color, tipografía, espaciados, etc.
+  Se exponen como utilidades de Tailwind (bg-primary, text-heading, font-heading, etc.)
+  y también como variables CSS nativas para usar en CSS custom si hace falta.
+  =========================================================
+*/
+@theme {
+  /* ---- Colores de marca ---- */
+  --color-primary: #6366f1;
+  --color-primary-dark: #4338ca;
+  --color-secondary: #14b8a6;
+  --color-accent: #f59e0b;
+
+  /* ---- Colores de superficie / texto (placeholder, ajustar con el diseño final) ---- */
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8fafc;
+  --color-surface: #ffffff;
+  --color-heading: #0f172a;
+  --color-body: #334155;
+  --color-muted: #64748b;
+  --color-border: #e2e8f0;
+
+  /* ---- Tipografías ---- */
+  --font-heading: "Poppins", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  /* ---- Layout ---- */
+  --breakpoint-3xl: 1920px;
+  --container-content: 1280px;
+
+  /* ---- Alturas / espaciados reutilizables ---- */
+  --spacing-navbar: 4.5rem;
+}
+
+/* Variables CSS "planas" por si se necesitan fuera de Tailwind (charts, libs, etc.) */
+:root {
+  --navbar-height: var(--spacing-navbar);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-body);
+  background-color: var(--color-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+}
+
+/* Offset para que el scroll a los anchors (#sobre-mi, #skills, etc.)
+   no quede tapado por el navbar fijo */
+section[id] {
+  scroll-margin-top: var(--navbar-height);
+}
+

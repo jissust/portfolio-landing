@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "siteName": "Mi Portfolio"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Skills",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "test": "Página de prueba"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Tu Nombre",
+    "role": "Frontend Developer",
+    "description": "Descripción corta de presentación. Reemplazar con tu propia bio.",
+    "ctaPrimary": "Ver proyectos",
+    "ctaSecondary": "Contactame"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Texto de ejemplo sobre vos: quién sos, qué hacés y qué te apasiona."
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Estas son algunas de las tecnologías con las que trabajo."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "description": "Mi recorrido laboral.",
+    "present": "Actualidad",
+    "items": {
+      "exp-1": {
+        "description": "Descripción de las tareas y logros en este puesto."
+      },
+      "exp-2": {
+        "description": "Descripción de las tareas y logros en este puesto."
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "Algunos de mis proyectos destacados.",
+    "viewLive": "Ver demo",
+    "viewRepo": "Ver código",
+    "items": {
+      "proj-1": {
+        "title": "Proyecto 1",
+        "description": "Descripción corta del proyecto 1."
+      },
+      "proj-2": {
+        "title": "Proyecto 2",
+        "description": "Descripción corta del proyecto 2."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "¿Querés trabajar conmigo o tenés alguna consulta? Escribime.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje"
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "madeWith": "Hecho con React y Tailwind CSS"
+  },
+  "testPage": {
+    "title": "Página de prueba",
+    "description": "Esta pantalla es un ejemplo de cómo agregar nuevas páginas al proyecto en el futuro."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscás no existe.",
+    "backHome": "Volver al inicio"
+  }
+}

@@ -1,0 +1,8 @@
+[
+  { "id": "javascript", "name": "JavaScript", "level": 90, "category": "language" },
+  { "id": "typescript", "name": "TypeScript", "level": 80, "category": "language" },
+  { "id": "react", "name": "React", "level": 90, "category": "frontend" },
+  { "id": "tailwind", "name": "Tailwind CSS", "level": 85, "category": "frontend" },
+  { "id": "node", "name": "Node.js", "level": 75, "category": "backend" },
+  { "id": "git", "name": "Git", "level": 85, "category": "tools" }
+]

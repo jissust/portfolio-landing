@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "siteName": "My Portfolio"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "test": "Test page"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Your Name",
+    "role": "Frontend Developer",
+    "description": "Short intro placeholder. Replace with your own bio.",
+    "ctaPrimary": "View projects",
+    "ctaSecondary": "Contact me"
+  },
+  "about": {
+    "title": "About me",
+    "description": "Sample text about who you are, what you do and what you're passionate about."
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Some of the technologies I work with."
+  },
+  "experience": {
+    "title": "Experience",
+    "description": "My professional journey.",
+    "present": "Present",
+    "items": {
+      "exp-1": {
+        "description": "Description of tasks and achievements in this role."
+      },
+      "exp-2": {
+        "description": "Description of tasks and achievements in this role."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Some of my featured projects.",
+    "viewLive": "View demo",
+    "viewRepo": "View code",
+    "items": {
+      "proj-1": {
+        "title": "Project 1",
+        "description": "Short description of project 1."
+      },
+      "proj-2": {
+        "title": "Project 2",
+        "description": "Short description of project 2."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Want to work together or have a question? Get in touch.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Made with React and Tailwind CSS"
+  },
+  "testPage": {
+    "title": "Test page",
+    "description": "This screen is an example of how to add new pages to the project in the future."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist.",
+    "backHome": "Back home"
+  }
+}

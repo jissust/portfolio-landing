@@ -1,0 +1,24 @@
+[
+  {
+    "id": "exp-1",
+    "role": "Frontend Developer",
+    "company": "Empresa Ejemplo S.A.",
+    "location": "Buenos Aires, Argentina",
+    "startDate": "2023-03",
+    "endDate": null,
+    "current": true,
+    "descriptionKey": "experience.items.exp-1.description",
+    "tags": ["React", "TypeScript", "Tailwind CSS"]
+  },
+  {
+    "id": "exp-2",
+    "role": "Junior Developer",
+    "company": "Otra Empresa",
+    "location": "Remoto",
+    "startDate": "2021-06",
+    "endDate": "2023-02",
+    "current": false,
+    "descriptionKey": "experience.items.exp-2.description",
+    "tags": ["JavaScript", "HTML", "CSS"]
+  }
+]

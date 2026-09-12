@@ -1,0 +1,22 @@
+[
+  {
+    "id": "proj-1",
+    "titleKey": "projects.items.proj-1.title",
+    "descriptionKey": "projects.items.proj-1.description",
+    "image": "/images/projects/project-1.jpg",
+    "tags": ["React", "Tailwind CSS"],
+    "liveUrl": "https://example.com",
+    "repoUrl": "https://github.com/usuario/proyecto-1",
+    "featured": true
+  },
+  {
+    "id": "proj-2",
+    "titleKey": "projects.items.proj-2.title",
+    "descriptionKey": "projects.items.proj-2.description",
+    "image": "/images/projects/project-2.jpg",
+    "tags": ["JavaScript", "API REST"],
+    "liveUrl": "https://example.com",
+    "repoUrl": "https://github.com/usuario/proyecto-2",
+    "featured": false
+  }
+]
