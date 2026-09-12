@@ -24,7 +24,7 @@
   /* ---- Colores de superficie / texto (placeholder, ajustar con el diseño final) ---- */
   --color-bg: #FAFAF8;
   --color-bg-alt: #f8fafc;
-  --color-surface: #ffffff;
+  /* --color-surface: #ffffff; */
   --color-heading: #0f172a;
   --color-body: #334155;
   --color-muted: #64748b;
