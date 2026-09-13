@@ -31,7 +31,7 @@
   --color-border: #e2e8f0;
 
   /* ---- Tipografías ---- */
-  --font-heading: "Poppins", "Inter", system-ui, sans-serif;
+  --font-heading: 'Bricolage Grotesque', sans-serif;
   --font-body: "IBM Plex Sans", sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
 
