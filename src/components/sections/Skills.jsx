@@ -6,7 +6,7 @@ export default function Skills() {
   const skills = useSkills();
 
   return (
-    <section id="skills" class="border-b border-line bg-surface px-6 py-24 md:px-10 md:py-32" aria-label={t("skills.title")}>
+    <section id="skills" class="border-b border-line bg-surface px-6 py-24 md:px-10 md:py-32 sticky top-0 z-30 h-screen flex items-center" aria-label={t("skills.title")}>
       {/* Skills */}
       {/*<h2>{t("skills.title")}</h2>
       <p>{t("skills.description")}</p>

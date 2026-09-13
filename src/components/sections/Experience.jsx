@@ -9,7 +9,7 @@ export default function Experience() {
     <section
       id="experience"
       aria-label={t("experience.title")}
-      class="border-b border-line-dark bg-ink px-6 py-24 text-paper md:px-10 md:py-32"
+      class="border-b border-line-dark bg-ink px-6 py-24 text-paper md:px-10 md:py-32 sticky top-0 z-40 h-screen flex items-center"
     >
       {/*<h2>{t("experience.title")}</h2>
       <p>{t("experience.description")}</p>

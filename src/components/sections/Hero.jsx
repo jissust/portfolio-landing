@@ -7,7 +7,7 @@ export default function Hero() {
     <section
       id="hero"
       aria-label={t("hero.name")}
-      className="relative overflow-hidden border-b border-line px-6 pb-24 pt-20 md:px-10 md:pt-28"
+      className="relative overflow-hidden border-b border-line px-6 pb-24 pt-20 md:px-10 md:pt-28 sticky top-0 z-10 h-screen"
     >
       {/* Hero */}
       <div className="grid-overlay pointer-events-none absolute inset-0"></div>

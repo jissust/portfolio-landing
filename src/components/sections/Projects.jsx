@@ -6,7 +6,7 @@ export default function Projects() {
   const projects = useProjects();
 
   return (
-    <section id="proyectos" aria-label={t("projects.title")} class="px-6 py-24 md:px-10 md:py-32">
+    <section id="proyectos" aria-label={t("projects.title")} class="px-6 py-24 md:px-10 md:py-32 sticky top-0 z-50 bg-paper">
       {/* Proyectos */}
       {/*<h2>{t("projects.title")}</h2>
       <p>{t("projects.description")}</p>
