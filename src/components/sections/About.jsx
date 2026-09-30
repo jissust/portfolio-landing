@@ -4,7 +4,7 @@ export default function About() {
   const { t } = useTranslation();
 
   return (
-    <section id="about" class="border-b border-line px-6 py-24 md:px-10 md:py-32 sticky top-0 z-20 h-screen bg-paper flex items-center" aria-label={t("about.title")}>
+    <section id="about" class="border-b border-line px-6 py-24 md:px-10 md:py-32 sticky top-0 z-20 h-screen bg-surface flex items-center" aria-label={t("about.title")}>
       <div class="mx-auto grid max-w-7xl gap-12 md:grid-cols-[280px_1fr] md:gap-20">
         <div>
           <p class="font-mono text-sm text-ink-soft">( 01 )</p>

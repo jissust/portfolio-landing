@@ -1,4 +1,4 @@
-import skills from "@/data/skills.json";
+import skillsData from "@/data/skills.json";
 
 /**
  * Hook de acceso a los skills mockeados.
@@ -6,5 +6,6 @@ import skills from "@/data/skills.json";
  * sin tener que tocar los componentes que lo consumen.
  */
 export function useSkills() {
-  return skills;
+  // Filtra categorías vacías por si dejás alguna en construcción
+  return skillsData.filter((category) => category.skills.length > 0);
 }
