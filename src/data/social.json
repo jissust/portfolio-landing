@@ -1,6 +1,5 @@
 [
-  { "id": "github", "label": "GitHub", "url": "https://github.com/tu-usuario", "icon": "github" },
-  { "id": "linkedin", "label": "LinkedIn", "url": "https://linkedin.com/in/tu-usuario", "icon": "linkedin" },
-  { "id": "instagram", "label": "Instagram", "url": "https://instagram.com/tu-usuario", "icon": "instagram" },
-  { "id": "email", "label": "Email", "url": "mailto:tu-email@example.com", "icon": "mail" }
+  { "id": "github", "label": "GitHub", "url": "https://github.com/jissust", "icon": "github" },
+  { "id": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/jes%C3%BAs-tissera-43244786", "icon": "linkedin" },
+  { "id": "email", "label": "Email", "url": "mailto:jesustissera@gmail.com", "icon": "mail" }
 ]

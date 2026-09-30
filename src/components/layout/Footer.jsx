@@ -1,9 +1,12 @@
 import { useTranslation } from "react-i18next";
+import { useSocialLinks } from "@/hooks/useSocialLinks";
 import SocialLinks from "@/components/ui/SocialLinks";
 
 export default function Footer() {
   const { t } = useTranslation();
   const year = new Date().getFullYear();
+  const socialLinks = useSocialLinks();
+  console.log("socialLinks", socialLinks);
 
   return (
     <footer id="contact" class="bg-ink px-6 py-24 text-paper md:px-10 md:py-32">
@@ -22,37 +25,19 @@ export default function Footer() {
         </h2>
 
         <div class="mt-14 grid gap-4 border-t border-line-dark pt-10 font-mono text-lg md:grid-cols-3 md:text-xl">
+          {socialLinks.map((link) => (
           <a
-            href="mailto:tu@email.com"
+            href={link.url}
+            target="_blank"
+            key={link.id}
             class="group flex items-center justify-between border-b border-line-dark py-4 transition-colors hover:text-paper/70 md:border-0"
           >
-            Email{" "}
+            {link.label}{" "}
             <span class="transition-transform group-hover:translate-x-1">
               ↗
             </span>
-          </a>
-          <a
-            href="https://github.com/tu-usuario"
-            target="_blank"
-            rel="noopener"
-            class="group flex items-center justify-between border-b border-line-dark py-4 transition-colors hover:text-paper/70 md:border-0"
-          >
-            GitHub{" "}
-            <span class="transition-transform group-hover:translate-x-1">
-              ↗
-            </span>
-          </a>
-          <a
-            href="https://linkedin.com/in/tu-usuario"
-            target="_blank"
-            rel="noopener"
-            class="group flex items-center justify-between py-4 transition-colors hover:text-paper/70"
-          >
-            LinkedIn{" "}
-            <span class="transition-transform group-hover:translate-x-1">
-              ↗
-            </span>
-          </a>
+          </a>            
+          ))}
         </div>
 
         <div class="mt-20 flex flex-col gap-2 border-t border-line-dark pt-8 font-mono text-xs uppercase tracking-widest text-paper/40 md:flex-row md:items-center md:justify-between">
