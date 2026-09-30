@@ -1,24 +1,70 @@
 [
   {
-    "id": "exp-1",
-    "role": "Frontend Developer",
-    "company": "Empresa Ejemplo S.A.",
-    "location": "Buenos Aires, Argentina",
-    "startDate": "2023-03",
-    "endDate": null,
-    "current": true,
-    "descriptionKey": "experience.items.exp-1.description",
-    "tags": ["React", "TypeScript", "Tailwind CSS"]
+    "id": "freelance-wordpress",
+    "role": "WordPress Developer",
+    "company": "Freelance",
+    "startDate": "2024-07",
+    "endDate": "2025-01",
+    "current": false,
+    "description": "Desarrollo frontend de sitios corporativos en WordPress, implementando diseños de Figma con fidelidad pixel-perfect. Personalización de temas y page builders, desarrollo e integración de plugins a medida y configuración de tiendas e-commerce.",
+    "projects": [
+      { "name": "Gillig", "url": "https://www.gillig.com/" },
+      { "name": "KRL Enterprises", "url": "https://krlenterprises.net/" },
+      { "name": "Start Fuel Co", "url": "https://startfuelco.com/" },
+      { "name": "Vital Findings", "url": "https://vitalfindings.com/" },
+      { "name": "Amy Trachter", "url": "https://amytrachter.com/" },
+      { "name": "Throne Labs", "url": "https://thronelabs.co/" },
+      { "name": "Burlaw", "url": "https://burlaw.com/" }
+    ],
+    "tags": ["WordPress", "Elementor", "WPBakery", "Plugins", "E-commerce", "Figma"]
   },
   {
-    "id": "exp-2",
-    "role": "Junior Developer",
-    "company": "Otra Empresa",
-    "location": "Remoto",
-    "startDate": "2021-06",
-    "endDate": "2023-02",
+    "id": "zafirus",
+    "role": "Fullstack Developer",
+    "company": "Zafirus Technologies",
+    "startDate": "2021-12",
+    "endDate": "2024-03",
     "current": false,
-    "descriptionKey": "experience.items.exp-2.description",
-    "tags": ["JavaScript", "HTML", "CSS"]
+    "description": "Desarrollo frontend y backend de plataformas web en equipo ágil (Scrum). Foco en SEO técnico, rendimiento (WPO) y accesibilidad (WCAG 2.1, WAI-ARIA), con seguimiento del posicionamiento en Google Search Console. En Biobarica implementé AMP para mejorar la velocidad de carga y el SEO.",
+    "projects": [
+      { "name": "Quiero Helado" },
+      { "name": "Grouid" },
+      { "name": "Zafirus Technologies" },
+      { "name": "Panoramix" },
+      { "name": "Biobarica", "note": "AMP" }
+    ],
+    "tags": [
+      "JavaScript", "jQuery", "HTML", "CSS", "Bootstrap", "Sass",
+      "Laravel", "MySQL", "SEO",
+      "Figma", "Photoshop", "Scrum"
+    ]
+  },
+  {
+    "id": "freelance-fullstack",
+    "role": "Fullstack Developer",
+    "company": "Freelance",
+    "startDate": "2021-04",
+    "endDate": "2021-12",
+    "current": false,
+    "description": "Desarrollo y maquetación de interfaces, creación e integración de nuevos módulos y mantenimiento de tiendas online en Shopify y VTEX.",
+    "projects": [],
+    "tags": ["Shopify", "VTEX"]
+  },
+  {
+    "id": "uces",
+    "role": "Fullstack Developer",
+    "company": "UCES",
+    "startDate": "2015-04",
+    "endDate": "2021-04",
+    "current": false,
+    "description": "Seis años a cargo del desarrollo y la evolución de la web institucional y del campus virtual para alumnos. Ambas plataformas se integraban con WordPress para la gestión de contenidos (planes de estudio, carreras, noticias) y consumían una API en Laravel conectada a SQL Server, centralizando y sincronizando la información.",
+    "projects": [
+      { "name": "UCES", "note": "Web principal" },
+      { "name": "Miuces", "note": "Campus virtual" }
+    ],
+    "tags": [
+      "HTML", "CSS", "JavaScript", "jQuery", "Ajax",
+      "Laravel", "SQL Server", "WordPress", "Photoshop"
+    ]
   }
 ]

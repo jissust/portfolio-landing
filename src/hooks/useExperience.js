@@ -1,5 +1,8 @@
-import experience from "@/data/experience.json";
+import experienceData from "@/data/experience.json";
 
 export function useExperience() {
-  return experience;
+  // Más reciente primero (YYYY-MM se puede comparar como string)
+  return [...experienceData].sort((a, b) =>
+    b.startDate.localeCompare(a.startDate)
+  );
 }
