@@ -12,7 +12,7 @@ const NAV_LINKS = [
   { href: "#sobre-mi", key: "nav.about" },
   { href: "#skills", key: "nav.skills" },
   { href: "#experiencia", key: "nav.experience" },
-  { href: "#proyectos", key: "nav.projects" },
+  /* { href: "#proyectos", key: "nav.projects" }, */
   { href: "#contacto", key: "nav.contact" },
 ];
 

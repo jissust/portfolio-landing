@@ -36,12 +36,12 @@ export default function Hero() {
         </p>
 
         <div className="mt-10 flex flex-wrap gap-4">
-          <a
+          {/* <a
             href="#proyectos"
             className="rounded-full bg-ink px-6 py-3 font-mono text-xs uppercase tracking-widest text-paper transition-opacity hover:opacity-80"
           >
             Ver proyectos
-          </a>
+          </a> */}
           <a
             href="#"
             className="rounded-full border border-ink px-6 py-3 font-mono text-xs uppercase tracking-widest transition-colors hover:bg-ink hover:text-paper"
