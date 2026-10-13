@@ -4,8 +4,9 @@ export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section
-      id="hero"
+    <>
+    <div id="hero"></div>
+    <section      
       aria-label={t("hero.name")}
       className="relative overflow-hidden border-b border-line px-6 pb-24 pt-20 md:px-10 md:pt-28 sticky top-0 z-10 h-screen"
     >
@@ -58,5 +59,6 @@ export default function Hero() {
         <span>( 0,0 )</span>
       </div>
     </section>
+    </>
   );
 }

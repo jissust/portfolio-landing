@@ -9,8 +9,9 @@ export default function Skills() {
   const categories = useSkills();
 
   return (
+    <>
+    <div id="skills"></div>
     <section
-      id="skills"
       className="relative md:sticky top-0 z-30 flex min-h-screen items-center border-b border-line bg-paper px-6 py-24 md:px-10 md:py-32"
       aria-label={t("skills.title")}
     >
@@ -42,5 +43,6 @@ export default function Skills() {
         </div>
       </div>
     </section>
+    </>
   );
 }

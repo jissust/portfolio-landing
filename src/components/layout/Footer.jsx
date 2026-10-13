@@ -9,7 +9,8 @@ export default function Footer() {
   console.log("socialLinks", socialLinks);
 
   return (
-    <footer id="contact" class="bg-ink px-6 py-24 text-paper md:px-10 md:py-32">
+    <footer  class="bg-ink px-6 py-24 text-paper md:px-10 md:py-32">
+      <div id="contacto"></div>
       {/* Footer */}
       {/*<SocialLinks />
       <p>
