@@ -20,9 +20,7 @@ export default function Footer() {
       <div class="mx-auto max-w-7xl">
         <p class="font-mono text-sm text-paper/50">( 05 )</p>
         <h2 class="text-display mt-4 font-display font-bold">
-          ¿Trabajamos
-          <br />
-          juntos?
+          {t("contact.description")}
         </h2>
 
         <div class="mt-14 grid gap-4 border-t border-line-dark pt-10 font-mono text-lg md:grid-cols-3 md:text-xl">
@@ -44,7 +42,7 @@ export default function Footer() {
         <div class="mt-20 flex flex-col gap-2 border-t border-line-dark pt-8 font-mono text-xs uppercase tracking-widest text-paper/40 md:flex-row md:items-center md:justify-between">
           <span>© 2026 Jesús Tissera</span>
           <a href="#top" class="hover:text-paper/70">
-            Volver arriba ↑
+            {t("back_to_top")}
           </a>
         </div>
       </div>

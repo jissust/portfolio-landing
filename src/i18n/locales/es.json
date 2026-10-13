@@ -9,22 +9,31 @@
     "experience": "Experiencia",
     "projects": "Proyectos",
     "contact": "Contacto",
-    "test": "Página de prueba"
+    "text": "Disponible para trabajar"
   },
   "hero": {
     "greeting": "Hola, soy",
     "name": "Tu Nombre",
     "role": "Frontend Developer",
-    "description": "Descripción corta de presentación. Reemplazar con tu propia bio.",
+    "description": "Construyo interfaces cuidadas al detalle, rápidas y accesibles. Me obsesiona el pixel-perfect tanto como el código limpio.",
     "ctaPrimary": "Ver proyectos",
-    "ctaSecondary": "Contactame"
+    "ctaSecondary": "Descargar CV"
   },
   "about": {
     "title": "Sobre mí",
-    "description": "Texto de ejemplo sobre vos: quién sos, qué hacés y qué te apasiona."
+    "location": "Ubicación",
+    "focus": "Foco",
+    "description_paragraph_1": "Soy desarrollador frontend con foco en construir productos digitales que se sientan sólidos: rápidos, prolijos y fáciles de usar.\nDisfruto tanto de resolver el detalle visual como de dejar una arquitectura de código ordenada por debajo.",
+    "description_paragraph_2": "Vengo trabajando con equipos de diseño y producto llevando interfaces desde el prototipo hasta producción, cuidando performance, accesibilidad y consistencia del sistema de diseño en cada entrega.",
+    "description_paragraph_3": "Cuando no estoy programando, estoy revisando referencias de diseño, probando herramientas nuevas o afinando este mismo sitio."
   },
   "skills": {
-    "title": "Skills",
+    "title": "Stack & herramientas",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Herramientas",
+    "databases": "Bases de datos",
+    "design": "Diseño",
     "description": "Estas son algunas de las tecnologías con las que trabajo."
   },
   "experience": {
@@ -32,11 +41,25 @@
     "description": "Mi recorrido laboral.",
     "present": "Actualidad",
     "items": {
-      "exp-1": {
-        "description": "Descripción de las tareas y logros en este puesto."
+      "freelance-part-time-web-developer": {
+        "id": "freelance-part-time-web-developer",
+        "description": "Desarrollador web freelance part-time en 1Bit, enfocado en el desarrollo de sitios corporativos y tiendas e-commerce con WordPress, WooCommerce y Webflow. Implementación de diseños en Figma y personalización de interfaces mediante Elementor y soluciones a medida. Configuración de tiendas online, descuentos, impuestos y funcionalidades comerciales. Uso de herramientas de inteligencia artificial para optimizar procesos de desarrollo y automatizar tareas."
       },
-      "exp-2": {
-        "description": "Descripción de las tareas y logros en este puesto."
+      "freelance-wordpress": {
+        "id": "freelance-wordpress",
+        "description": "Desarrollo frontend de sitios corporativos en WordPress, implementando diseños de Figma con fidelidad pixel-perfect. Personalización de temas y page builders, desarrollo e integración de plugins a medida y configuración de tiendas e-commerce."
+      },
+      "zafirus": {
+        "id": "zafirus",
+        "description": "Desarrollo frontend y backend de plataformas web en equipo ágil (Scrum). Foco en SEO técnico, rendimiento (WPO) y accesibilidad (WCAG 2.1, WAI-ARIA), con seguimiento del posicionamiento en Google Search Console. En Biobarica implementé AMP para mejorar la velocidad de carga y el SEO."
+      },
+      "freelance-fullstack": {
+        "id": "freelance-fullstack",
+        "description": "Desarrollo y maquetación de interfaces, creación e integración de nuevos módulos y mantenimiento de tiendas online en Shopify y VTEX."
+      },
+      "uces": {
+        "id": "uces",
+        "description": "Seis años a cargo del desarrollo y la evolución de la web institucional y del campus virtual para alumnos. Ambas plataformas se integraban con WordPress para la gestión de contenidos (planes de estudio, carreras, noticias) y consumían una API en Laravel conectada a SQL Server, centralizando y sincronizando la información."
       }
     }
   },
@@ -58,7 +81,7 @@
   },
   "contact": {
     "title": "Contacto",
-    "description": "¿Querés trabajar conmigo o tenés alguna consulta? Escribime.",
+    "description": "¿Trabajamos juntos?",
     "form": {
       "name": "Nombre",
       "email": "Email",
@@ -70,10 +93,12 @@
     "rights": "Todos los derechos reservados.",
     "madeWith": "Hecho con React y Tailwind CSS"
   },
+  "back_to_top": "Volver arriba",
   "testPage": {
     "title": "Página de prueba",
     "description": "Esta pantalla es un ejemplo de cómo agregar nuevas páginas al proyecto en el futuro."
   },
+  
   "notFound": {
     "title": "Página no encontrada",
     "description": "La página que buscás no existe.",

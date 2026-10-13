@@ -10,15 +10,15 @@ export default function About() {
       <div class="mx-auto grid max-w-7xl gap-12 md:grid-cols-[280px_1fr] md:gap-20">
         <div>
           <p class="font-mono text-sm text-ink-soft">( 01 )</p>
-          <h2 class="text-display mt-2 font-display font-bold">Sobre mí</h2>
+          <h2 class="text-display mt-2 font-display font-bold">{t("about.title")}</h2>
 
           <dl class="mt-10 space-y-6 font-mono text-xs uppercase tracking-widest text-ink-soft">
             <div>
-              <dt class="text-ink">Ubicación</dt>
+              <dt class="text-ink">{t("about.location")}</dt>
               <dd class="mt-1">Buenos Aires, AR</dd>
             </div>
             <div>
-              <dt class="text-ink">Foco</dt>
+              <dt class="text-ink">{t("about.focus")}</dt>
               <dd class="mt-1">Frontend</dd>
             </div>
             {/* <div>
@@ -30,20 +30,13 @@ export default function About() {
 
         <div class="space-y-6 text-lg leading-relaxed text-ink-soft md:text-xl">
           <p>
-            Soy desarrollador frontend con foco en construir productos digitales
-            que se sientan sólidos: rápidos, prolijos y fáciles de usar.
-            Disfruto tanto de resolver el detalle visual como de dejar una
-            arquitectura de código ordenada por debajo.
+            {t("about.description_paragraph_1")}
           </p>
           <p>
-            Vengo trabajando con equipos de diseño y producto llevando
-            interfaces desde el prototipo hasta producción, cuidando
-            performance, accesibilidad y consistencia del sistema de diseño en
-            cada entrega.
+            {t("about.description_paragraph_2")}
           </p>
           <p>
-            Cuando no estoy programando, estoy revisando referencias de diseño,
-            probando herramientas nuevas o afinando este mismo sitio.
+            {t("about.description_paragraph_3")}
           </p>
         </div>
       </div>

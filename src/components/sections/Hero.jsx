@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="grid-overlay pointer-events-none absolute inset-0"></div>
 
       <div className="relative mx-auto max-w-7xl">
-        <p className="font-mono text-sm text-ink-soft">// Hola, soy</p>
+        <p className="font-mono text-sm text-ink-soft">// {t("hero.greeting")}</p>
 
         <h1 className="text-hero mt-4 font-display font-bold uppercase">
           Jesús
@@ -32,8 +32,7 @@ export default function Hero() {
         </div>
 
         <p className="mt-10 max-w-xl text-lg text-ink-soft md:text-xl">
-          Construyo interfaces cuidadas al detalle, rápidas y accesibles. Me
-          obsesiona el pixel-perfect tanto como el código limpio.
+          {t("hero.description")}
         </p>
 
         <div className="mt-10 flex flex-wrap gap-4">
@@ -41,13 +40,13 @@ export default function Hero() {
             href="#proyectos"
             className="rounded-full bg-ink px-6 py-3 font-mono text-xs uppercase tracking-widest text-paper transition-opacity hover:opacity-80"
           >
-            Ver proyectos
+            {t("hero.ctaPrimary")}
           </a> */}
           <a
             href="#"
             className="rounded-full border border-ink px-6 py-3 font-mono text-xs uppercase tracking-widest transition-colors hover:bg-ink hover:text-paper"
           >
-            Descargar CV
+            {t("hero.ctaSecondary")}
           </a>
         </div>
       </div>

@@ -49,13 +49,13 @@ export default function Navbar() {
         <div className="hidden items-center gap-4 md:flex">
           <span className="flex items-center gap-2 font-mono text-xs text-ink-soft">
             <span className="h-1.5 w-1.5 rounded-full bg-ink animate-pulse-dot"></span>
-            Disponible para trabajar
+            {t("nav.text")}
           </span>
           <a
             href="#contacto"
             className="rounded-full border border-ink px-4 py-2 font-mono text-xs uppercase tracking-widest transition-colors hover:bg-ink hover:text-paper"
           >
-            Contacto
+            {t("nav.contact")}
           </a>
         </div>
 

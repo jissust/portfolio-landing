@@ -1,12 +1,11 @@
 [
   {
-    "id": "desarrollador-web-freelance-part-time-1bit",
-    "role": "Desarrollador Web Freelance Part-time",
+    "id": "freelance-part-time-web-developer",
+    "role": "Freelance Part-time Web Developer",
     "company": "1Bit",
     "startDate": "2026-07",
     "endDate": "2026-10",
     "current": true,
-    "description": "Desarrollador web freelance part-time en 1Bit, enfocado en el desarrollo de sitios corporativos y tiendas e-commerce con WordPress, WooCommerce y Webflow. Implementación de diseños en Figma y personalización de interfaces mediante Elementor y soluciones a medida. Configuración de tiendas online, descuentos, impuestos y funcionalidades comerciales. Uso de herramientas de inteligencia artificial para optimizar procesos de desarrollo y automatizar tareas.",
     "projects": [],
     "tags": ["WordPress", "Webflow", "WooCommerce", "Elementor", "Figma", "Plugins", "E-commerce", "Claude AI"]
   },
@@ -17,7 +16,6 @@
     "startDate": "2024-07",
     "endDate": "2025-01",
     "current": false,
-    "description": "Desarrollo frontend de sitios corporativos en WordPress, implementando diseños de Figma con fidelidad pixel-perfect. Personalización de temas y page builders, desarrollo e integración de plugins a medida y configuración de tiendas e-commerce.",
     "projects": [
       { "name": "Gillig", "url": "https://www.gillig.com/" },
       { "name": "KRL Enterprises", "url": "https://krlenterprises.net/" },
@@ -36,7 +34,6 @@
     "startDate": "2021-12",
     "endDate": "2024-03",
     "current": false,
-    "description": "Desarrollo frontend y backend de plataformas web en equipo ágil (Scrum). Foco en SEO técnico, rendimiento (WPO) y accesibilidad (WCAG 2.1, WAI-ARIA), con seguimiento del posicionamiento en Google Search Console. En Biobarica implementé AMP para mejorar la velocidad de carga y el SEO.",
     "projects": [
       { "name": "Quiero Helado" },
       { "name": "Grouid" },
@@ -57,7 +54,6 @@
     "startDate": "2021-04",
     "endDate": "2021-12",
     "current": false,
-    "description": "Desarrollo y maquetación de interfaces, creación e integración de nuevos módulos y mantenimiento de tiendas online en Shopify y VTEX.",
     "projects": [],
     "tags": ["Shopify", "VTEX"]
   },
@@ -68,10 +64,9 @@
     "startDate": "2015-04",
     "endDate": "2021-04",
     "current": false,
-    "description": "Seis años a cargo del desarrollo y la evolución de la web institucional y del campus virtual para alumnos. Ambas plataformas se integraban con WordPress para la gestión de contenidos (planes de estudio, carreras, noticias) y consumían una API en Laravel conectada a SQL Server, centralizando y sincronizando la información.",
     "projects": [
-      { "name": "UCES", "note": "Web principal" },
-      { "name": "Miuces", "note": "Campus virtual" }
+      { "name": "UCES" },
+      { "name": "Miuces" }
     ],
     "tags": [
       "HTML", "CSS", "JavaScript", "jQuery", "Ajax",

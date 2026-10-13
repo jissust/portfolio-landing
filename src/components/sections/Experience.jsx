@@ -20,7 +20,7 @@ export default function Experience() {
       : formatDate(item.endDate, locale);
     return `${start} — ${end}`;
   };
-
+  
   return (
     <>
     <div id="experiencia"></div>
@@ -53,12 +53,13 @@ export default function Experience() {
 
                 <p className="mt-2 font-body text-sm text-paper/60">
                   {item.description}
+                  {t(`experience.items.${item.id}.description`)}
                 </p>
 
                 {item.projects?.length > 0 && (
                   <p className="mt-3 font-body text-sm text-paper/60">
                     <span className="font-mono text-xs uppercase tracking-widest text-paper/50">
-                      Proyectos:{" "}
+                      {t("projects.title")}:{" "}
                     </span>
                     {item.projects.map((project, i) => (
                       <span key={project.name}>

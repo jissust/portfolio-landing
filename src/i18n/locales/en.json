@@ -9,22 +9,31 @@
     "experience": "Experience",
     "projects": "Projects",
     "contact": "Contact",
-    "test": "Test page"
+    "text": "Available for work"
   },
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Your Name",
     "role": "Frontend Developer",
-    "description": "Short intro placeholder. Replace with your own bio.",
+    "description": "I build meticulously crafted, fast, and accessible interfaces. I'm as obsessed with pixel-perfect design as I am with clean code.",
     "ctaPrimary": "View projects",
-    "ctaSecondary": "Contact me"
+    "ctaSecondary": "Download CV"
   },
   "about": {
     "title": "About me",
-    "description": "Sample text about who you are, what you do and what you're passionate about."
+    "location": "Location",
+    "focus": "Focus",
+    "description_paragraph_1": "I'm a frontend developer focused on building digital products that feel solid: fast, polished, and easy to use. I enjoy both resolving the visual details and ensuring a clean code architecture underneath.",
+    "description_paragraph_2": "I have been working with design and product teams, taking interfaces from prototype to production, ensuring performance, accessibility, and consistency of the design system in each delivery.",
+    "description_paragraph_3": "When I'm not coding, I'm reviewing design references, testing new tools, or fine-tuning this very site."
   },
   "skills": {
-    "title": "Skills",
+    "title": "Stack & tools",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools",
+    "databases": "Databases",
+    "design": "Design",
     "description": "Some of the technologies I work with."
   },
   "experience": {
@@ -32,11 +41,25 @@
     "description": "My professional journey.",
     "present": "Present",
     "items": {
-      "exp-1": {
-        "description": "Description of tasks and achievements in this role."
+      "freelance-part-time-web-developer": {
+        "id": "freelance-part-time-web-developer",
+        "description": "Web developer freelance part-time at 1Bit, focused on developing corporate websites and e-commerce stores with WordPress, WooCommerce and Webflow. Implementation of designs in Figma and customization of interfaces using Elementor and custom solutions. Setup of online stores, discounts, taxes and commercial features. Use of artificial intelligence tools to optimize development processes and automate tasks."
       },
-      "exp-2": {
-        "description": "Description of tasks and achievements in this role."
+      "freelance-wordpress": {
+        "id": "freelance-wordpress",
+        "description": "Frontend development of corporate websites in WordPress, implementing Figma designs with pixel-perfect fidelity. Customization of themes and page builders, development and integration of custom plugins and setup of e-commerce stores."
+      },
+      "zafirus": {
+        "id": "zafirus",
+        "description": "Frontend and backend development of web platforms in an agile team (Scrum). Focus on technical SEO, performance (WPO) and accessibility (WCAG 2.1, WAI-ARIA), with tracking of search engine positioning in Google Search Console. At Biobarica I implemented AMP to improve loading speed and SEO."
+      },
+      "freelance-fullstack": {
+        "id": "freelance-fullstack",
+        "description": "Development and layout of interfaces, creation and integration of new modules and maintenance of online stores in Shopify and VTEX."
+      },
+      "uces": {
+        "id": "uces",
+        "description": "Six years in charge of the development and evolution of the institutional website and the virtual campus for students. Both platforms were integrated with WordPress for content management (study plans, careers, news) and consumed a Laravel API connected to SQL Server, centralizing and synchronizing the information."
       }
     }
   },
@@ -58,7 +81,7 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "Want to work together or have a question? Get in touch.",
+    "description": "Shall we work together?",
     "form": {
       "name": "Name",
       "email": "Email",
@@ -70,6 +93,7 @@
     "rights": "All rights reserved.",
     "madeWith": "Made with React and Tailwind CSS"
   },
+  "back_to_top": "Back to top",
   "testPage": {
     "title": "Test page",
     "description": "This screen is an example of how to add new pages to the project in the future."

@@ -18,14 +18,14 @@ export default function Skills() {
       <div className="mx-auto w-full max-w-7xl">
         <p className="font-mono text-sm text-ink-soft">( 02 )</p>
         <h2 className="text-display mt-2 font-display font-bold">
-          Stack &amp; herramientas
+          {t("skills.title")}
         </h2>
 
         <div className="mt-14 grid gap-12 md:grid-cols-2 lg:grid-cols-3">
           {categories.map((category) => (
             <div key={category.id}>
               <h3 className="font-mono text-xs uppercase tracking-widest text-ink-soft">
-                {category.label}
+                {t(`skills.${category.id}`)}
               </h3>
 
               <ul className="mt-5 flex flex-wrap gap-3">
