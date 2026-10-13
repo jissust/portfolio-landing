@@ -15,7 +15,7 @@
     "greeting": "Hola, soy",
     "name": "Tu Nombre",
     "role": "Frontend Developer",
-    "description": "Construyo interfaces cuidadas al detalle, rápidas y accesibles. Me obsesiona el pixel-perfect tanto como el código limpio.",
+    "description": "Construyo interfaces cuidadas al detalle, rápidas y accesibles.",
     "ctaPrimary": "Ver proyectos",
     "ctaSecondary": "Descargar CV"
   },
@@ -98,7 +98,7 @@
     "title": "Página de prueba",
     "description": "Esta pantalla es un ejemplo de cómo agregar nuevas páginas al proyecto en el futuro."
   },
-  
+
   "notFound": {
     "title": "Página no encontrada",
     "description": "La página que buscás no existe.",
