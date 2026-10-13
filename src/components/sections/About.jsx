@@ -17,12 +17,12 @@ export default function About() {
             </div>
             <div>
               <dt class="text-ink">Foco</dt>
-              <dd class="mt-1">UI / UX Engineering</dd>
+              <dd class="mt-1">Frontend</dd>
             </div>
-            <div>
+            {/* <div>
               <dt class="text-ink">Idiomas</dt>
               <dd class="mt-1">Español, Inglés</dd>
-            </div>
+            </div> */}
           </dl>
         </div>
 
