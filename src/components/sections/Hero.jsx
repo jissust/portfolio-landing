@@ -43,8 +43,11 @@ export default function Hero() {
             {t("hero.ctaPrimary")}
           </a> */}
           <a
-            href="#"
+            href="/public/cv/jesustissera.pdf"
+            title={t("hero.ctaSecondary")}
+            target="_blank"
             className="rounded-full border border-ink px-6 py-3 font-mono text-xs uppercase tracking-widest transition-colors hover:bg-ink hover:text-paper"
+            download
           >
             {t("hero.ctaSecondary")}
           </a>
