@@ -23,7 +23,7 @@ export default function Experience() {
 
   return (
     <section
-      id="experience"
+      id="experiencia"
       aria-label={t("experience.title")}
       className="relative z-40 flex min-h-screen items-center border-b border-line-dark bg-ink px-6 py-24 text-paper md:px-10 md:py-32"
     >

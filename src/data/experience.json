@@ -1,5 +1,16 @@
 [
   {
+    "id": "desarrollador-web-freelance-part-time-1bit",
+    "role": "Desarrollador Web Freelance Part-time",
+    "company": "1Bit",
+    "startDate": "2026-07",
+    "endDate": "2026-10",
+    "current": true,
+    "description": "Desarrollador web freelance part-time en 1Bit, enfocado en el desarrollo de sitios corporativos y tiendas e-commerce con WordPress, WooCommerce y Webflow. Implementación de diseños en Figma y personalización de interfaces mediante Elementor y soluciones a medida. Configuración de tiendas online, descuentos, impuestos y funcionalidades comerciales. Uso de herramientas de inteligencia artificial para optimizar procesos de desarrollo y automatizar tareas.",
+    "projects": [],
+    "tags": ["WordPress", "Webflow", "WooCommerce", "Elementor", "Figma", "Plugins", "E-commerce", "Claude AI"]
+  },
+  {
     "id": "freelance-wordpress",
     "role": "WordPress Developer",
     "company": "Freelance",
